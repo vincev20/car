@@ -162,7 +162,7 @@ nav a:hover {
    ========================================================================== */
 
 header div {
-	width: 70%;
+	width: 100%;
 	float: left;
 	min-width: 280px;
     padding-bottom: 20px;
@@ -178,13 +178,18 @@ header div {
 }
 
 .counter {
-	
+	clear:both;
 	float: right;
 	//width: 28%;
 	//min-width: 460px; 
     margin-right: 5px;
+	//padding: 0
+	//margin:0;
 }
 
+.counter h4 {
+	margin: 0
+}
 
 .blanks {
         width: 20%; 
@@ -211,9 +216,10 @@ header div {
     font-weight: bold;
     background-color: #B8FF68;
     border-radius: 5px;
-    height: 13px;
+    height: 15px;
     width: 60px;
-    padding: 10px;
+    padding: 2px 10px 10px 10px;
+
 }
 
 .futuristic3 {
@@ -222,9 +228,9 @@ header div {
     font-weight: bold;
     background-color: pink;
     border-radius: 5px;
-    height: 13px;
+    height: 15px;
     width: 60px;
-    padding: 10px;
+    padding: 2px 10px 10px 10px;
 }
 
 .inputs {
@@ -318,6 +324,126 @@ article {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        //width: 1026px; /* 1140px - 10% for margins */
+		height: 600px;
+        width: 99%; /* 1140px - 10% for margins */
+	    margin: 0 auto;
+		
+    }
+
+	#car1, #car2 {
+		
+		height: 150px;	
+	}
+
+}
+
+
+@media only screen and (max-width: 1139px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+   
+
+/* ============
+    WIDE: Main
+   ============ */
+
+ 	.wrapper {
+        //width: 1026px; /* 1140px - 10% for margins */
+        width: 99%; /* 1140px - 10% for margins */
+		height: 600px;
+	    margin: 0 auto;
+		
+    }	
+
+	#car1, #car2 {
+		
+		height: 120px;	
+	}
+
+	
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+	
+	 .wrapper {
+		height: 600px;
+
+    }
+	
+	#car1, #car2 {
+		
+		height: 100px;	
+	}
+
+	 #header {
+        font-size: 4em;
+        padding: 0;
+        margin:0;
+        text-align: center;
+        //width: 100%;
+    }
+	 
+}
+
+
+
 @media only screen and (max-width: 479px) {
     
     header div {
@@ -385,115 +511,6 @@ article {
     }
 
 }
-
-@media only screen and (min-width: 480px) {
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-	
-	 .wrapper {
-        //width: 1026px; /* 1140px - 10% for margins */
-		height: 600px;
-        //width: 95%; /* 1140px - 10% for margins */
-	    //margin: 0 auto;
-		
-    }
-	
-	#car1, #car2 {
-		
-		height: 100px;	
-	}
-	 
-}
-
-@media only screen and (min-width: 768px) {
-
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-   
-
-/* ============
-    WIDE: Main
-   ============ */
-
- 	.wrapper {
-        //width: 1026px; /* 1140px - 10% for margins */
-        width: 99%; /* 1140px - 10% for margins */
-		height: 600px;
-	    margin: 0 auto;
-		
-    }	
-
-	#car1, #car2 {
-		
-		height: 120px;	
-	}
-
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        //width: 1026px; /* 1140px - 10% for margins */
-		height: 600px;
-        width: 99%; /* 1140px - 10% for margins */
-	    margin: 0 auto;
-		
-    }
-
-	#car1, #car2 {
-		
-		height: 150px;	
-	}
-
-}
-	
 
 
 /* ==========================================================================
