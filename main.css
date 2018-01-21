@@ -82,13 +82,13 @@ body {
 
 .footer-container,
 .main aside {
-    border-top: 20px solid blue;
+    //border-top: 20px solid blue;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #2481ff;
+    //background: #2481ff;
 }
 
 .title {
@@ -333,10 +333,22 @@ article {
         //width: 100%;
     }
 
+	.counter {
+		clear: both;
+		float: unset;
+		margin: 0 auto;
+		width: 80%;
+		//padding:0;
+	 	background-color: unset;
+	 	}
 
     .counter h4{
-        //padding: 0;
-        margin:0;
+    	//margin: 0 auto;
+        //margin-left: 50px;
+        //margin:0;
+        //float: right;
+        width:100%;
+        background-color: pink;
     }
 
 	.wrapper {
@@ -345,12 +357,13 @@ article {
 
 	
 	.inputs {
+		//padding
 		width: 100%;
 	}
 	
 	.input {
 		width: 100%;
-		background-color: white;
+		//background-color: white;
 	}
 
 	.blanks {
