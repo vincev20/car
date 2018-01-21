@@ -266,24 +266,24 @@ function executeRev(){
 }
 
 function executeInverted(){
-     //timer = setTimeout(function () {
+     timer = setTimeout(function () {
     
         //if ( forward() == true){
         if ( forwardInverted() == true){
           executeInverted();
         }
-      //}, 1000);
+      }, 1000);
 }
 
 
 function executeRevInverted(){
-    // timer = setTimeout(function () {
+      timer = setTimeout(function () {
     
         if ( backwardInverted() == true){
         //if ( forwardInverted() == true){
           executeRevInverted();
         }
-      //}, 1000);
+      }, 1000);
 }
 
 
@@ -309,7 +309,7 @@ function distanceBetween3(){
   var biggest = Math.max(car1.total,car2.total)
   var smallest = Math.min(car1.total,car2.total)
 
-  var answer = (biggest - smallest) / 10
+  var answer = Math.ceil((biggest - smallest) / 10)
 
   distanceBetween.val(answer);
 
@@ -349,7 +349,11 @@ function backward(){
 
   if (stepDown > 0){
 
-    $step.val(parseInt($step.val())-1);
+    var steps = parseInt($step.val())
+    if (steps > 0){
+    $step.val(steps-1);
+    }
+
     status = true
 
   }
