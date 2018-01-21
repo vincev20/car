@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moving Cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:700,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1 id="resumeHeader">Exploration - Same Direction</h1>
+  <input type="button" id="button20" value="Same Direction"  style="margin-left: 80px; background-color: pink">
+<input type="button" id="button21" value="Opposite Direction" style=" background-color: pink"onclick="window.location.href='../simulation3_2/exploration.html'">
+<div id="topContainer">
+    <!-- <select id="type"><option>Constant</option></select>Speed<br> -->
+   
+    <input type="hidden" id="check2" value="PEV"><br>
+     <input type="hidden" id="check1" value=""><br>
+    
+    <span id="counter" class="futuristic2" style="margin-right: 20px">Preset:
+     <select id="preset" style="margin-right: 20px">
+      <option value="0">Preset</option>
+      <option value="1">1 Hours Later</option>
+      <option value="2">2 Hours Later</option>
+      
+      <option value="3">3 Hours Later</option>
+      
+    </select> Time/Clock Counter: <input id="step" style="width: 30px; " value="0" read> Hours</span>
+    
+
+    <br>
+    <br>
+  </div>
+   
+
+   <span class="futuristic" style="margin-left: 100px">
+   
+
+    Speed of PEV 1 = 
+    <input id="speed1" value="20">
+    km/h
+    </span>
+  <span class="futuristic" style="margin-left: 48px">  
+    Initial Distance between the 2 cars = 
+    <input id="distance0" value="0">
+    km
+   </span>
+  <span class="futuristic" style="margin-left: 100px">
+    <br>
+    Speed of PEV 2 =
+    <input id="speed2" value="30">
+    km/h
+  </span>
+  <span class="futuristic" style="margin-left: 40px">  
+      
+  <input type="hidden" id="delay" value="0"> 
+     
+    <br>
+
+  <!-- Delay in start time of PEV 2 = -->
+  <input type="hidden" id="delay" value="0"> 
+  
+
+  <input type="hidden" id="button99" value="update"> 
+
+
+
+  <div id="road" >
+    <img id="car1" src="images/pev1.png" style="margin-top: -150px">
+    <img id="car2" src="images/pev2.png" style="margin-top: -150px">
+  </div>  
+
+<br>
+<br>
+ <input type="hidden" id="button0" value="init"> 
+   
+  <input type="button" id="button3" value="play">
+  <input type="button" id="button4" value="pause">
+  <input type="button" id="button2" value="rewind">
+   <input type="button" id="button1" value="forward">
+
+<br>
+<br>
+  
+  <span style="background-color: #a1fcad">
+  Distance Between:<input id="distanceBetween" value="0">
+</span>
+  <input id="meet" value="Meet:Yes">
+    <br>
+   <br>
+<input type="button" id="button10" value="Home" onclick="window.location.href='../home.html'">
+ 
+  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="myscript.js"></script>
+</html>

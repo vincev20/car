@@ -1,0 +1,596 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	//border: 1px solid red;
+
+}
+
+/*
+.wrapper {
+    width: 100%;
+    margin: 0 5%;
+	//border: 1px solid blue;
+	//background-image: url(images/towns.png);
+	background-size: cover;
+}
+*/
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid blue;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid blue;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #2481ff;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    //padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+header div {
+	width: 70%;
+	float: left;
+	min-width: 280px;
+    padding-bottom: 20px;
+}
+
+#header {
+    font-size: 5em;
+    font-family: 'Reem Kufi', sans-serif;
+    color: rgb(0, 0, 150);
+    padding-left: 70px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+
+.counter {
+	
+	float: right;
+	//width: 28%;
+	//min-width: 460px; 
+    margin-right: 5px;
+}
+
+
+.blanks {
+        width: 20%; 
+    }
+
+
+.futuristic {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    background-color: #DBE9F5;
+
+}
+
+.futuristicRed {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    background-color: pink;
+
+}
+
+.futuristic4 {
+    border-color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    background-color: #B8FF68;
+    border-radius: 5px;
+    height: 13px;
+    width: 60px;
+    padding: 10px;
+}
+
+.futuristic3 {
+    border-color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    background-color: pink;
+    border-radius: 5px;
+    height: 13px;
+    width: 60px;
+    padding: 10px;
+}
+
+.inputs {
+
+	clear: both;
+	width: 80%;
+	margin: 0 auto;
+    
+	//text-align: left;
+    background-color: white;
+    
+}
+
+.input {
+	float: left;	
+	width: 50%;
+	
+}
+
+.input h4 {
+	margin:0;
+}
+
+
+
+#car1, #car2 {
+	height: 150px;
+	width: 15%;
+	min-width: 100px;
+	position: absolute;
+	bottom:0;
+	padding-bottom: 150px;
+	
+}
+
+footer img {
+	height: 100%;
+	width: 100%;
+}
+
+article {
+	width: 100%;
+	//border: 4px dotted black;	
+	
+}
+
+ 
+.main-container .wrapper {
+	
+	//border: 1px solid blue;
+	background-image: url(../images/towns2.png);
+	background-size: cover;		
+	background-position: center;	
+	position: relative;	
+}
+ 
+.buttonFooter {
+	text-align: center;	
+	
+}
+
+.buttonFooter input {
+	margin: 0 10px;
+	padding: 10px;	
+    color: black;
+}
+
+.buttonFooter2 input {
+	margin: 0 5px;
+	padding: 10px;	
+    color: black;
+}
+
+
+.footer-container {
+	width: 99%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#button10 {
+	float: left;
+}
+
+#button11 {
+	float: right;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (max-width: 479px) {
+    
+    header div {
+        width: 100%;
+
+    }
+
+    #header {
+        font-size: 3em;
+        padding: 0;
+        margin:0;
+        text-align: center;
+        //width: 100%;
+    }
+
+
+    .counter h4{
+        //padding: 0;
+        margin:0;
+    }
+
+	.wrapper {
+		height: 600px;
+    }
+
+	
+	.inputs {
+		width: 100%;
+	}
+	
+	.input {
+		width: 100%;
+		background-color: white;
+	}
+
+	.blanks {
+		width: 10%;	
+	}
+
+	#car1, #car2 {
+		
+		height: 80px;	
+	}
+
+    .buttonFooter input {
+        margin:0;
+        padding:3;
+    }
+    .buttonFooter2 input{
+        margin:0;
+        padding:3;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+	
+	 .wrapper {
+        //width: 1026px; /* 1140px - 10% for margins */
+		height: 600px;
+        //width: 95%; /* 1140px - 10% for margins */
+	    //margin: 0 auto;
+		
+    }
+	
+	#car1, #car2 {
+		
+		height: 100px;	
+	}
+	 
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+   
+
+/* ============
+    WIDE: Main
+   ============ */
+
+ 	.wrapper {
+        //width: 1026px; /* 1140px - 10% for margins */
+        width: 99%; /* 1140px - 10% for margins */
+		height: 600px;
+	    margin: 0 auto;
+		
+    }	
+
+	#car1, #car2 {
+		
+		height: 120px;	
+	}
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        //width: 1026px; /* 1140px - 10% for margins */
+		height: 600px;
+        width: 99%; /* 1140px - 10% for margins */
+	    margin: 0 auto;
+		
+    }
+
+	#car1, #car2 {
+		
+		height: 150px;	
+	}
+
+}
+	
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
