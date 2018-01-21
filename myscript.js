@@ -308,8 +308,11 @@ function distanceBetween3(){
 
   var biggest = Math.max(car1.total,car2.total)
   var smallest = Math.min(car1.total,car2.total)
+  //biggest = biggest * scaleFactor
+  //smallest = smallest * scaleFactor
 
-  var answer = Math.ceil((biggest - smallest) / 10)
+  var answer = Math.ceil((biggest - smallest) / scaleFactor)
+  //answer = answer 
 
   distanceBetween.val(answer);
 
